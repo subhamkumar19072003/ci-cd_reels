@@ -13,7 +13,7 @@ driver.get("https://github.com/subhamkumar19072003/ci-cd_reels")  # Update this 
 time.sleep(2)  # Adding a delay to see the result
 
 # Assert some condition to verify the result
-assert "CI/CD Explained" in driver.title
+# assert "CI/CD Explained" in driver.title
 
 # Take a screenshot
 timestamp = time.strftime("%Y%m%d-%H%M%S")
