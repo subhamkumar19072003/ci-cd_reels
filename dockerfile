@@ -7,4 +7,4 @@ WORKDIR /usr/share/nginx/html
 COPY . .
 
 # Expose port 8000
-EXPOSE 8000
+EXPOSE 80
